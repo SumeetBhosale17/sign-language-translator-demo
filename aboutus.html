@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Sign Language Translator</title>
+    <!-- All CSS from previous page is included here -->
+    <style>
+        :root {
+            --primary-color: #2C3E50;
+            --secondary-color: #3498DB;
+            --accent-color: #2980B9;
+            --background-color: #F5F6FA;
+            --text-color: #2C3E50;
+        }
+
+        /* Unified Navigation Bar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background: var(--primary-color);
+            color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .profile-img {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid var(--secondary-color);
+            padding: 2px;
+        }
+
+        /* Add about page specific styles */
+        .about-container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .team-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .developer-card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            border: 2px solid var(--secondary-color);
+        }
+
+        .developer-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .developer-info {
+            margin-top: 15px;
+        }
+
+        .developer-info a {
+            color: var(--accent-color);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .developer-info a:hover {
+            color: var(--secondary-color);
+        }
+
+        .info-section {
+            background: var(--background-color);
+            padding: 40px;
+            border-radius: 10px;
+            margin: 50px 0;
+            text-align: center;
+            border: 2px solid var(--accent-color);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" style="position: static;">
+        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Profile" class="profile-img">
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Our Team</h1>
+            <p class="hero-subtitle">Development towards a good future</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="about-container">
+        <div class="team-section">
+            <!-- Developer 1 -->
+            <div class="developer-card">
+                <h3 style="color: var(--secondary-color);">Harshad Jamdar</h3>
+                <div class="developer-info">
+                    <p>Group Leader</p>
+                    <a href="https://github.com/" target="_blank">GitHub: @harshadjamdar</a><br>
+                    <a href="https://linkedin.com/in/" target="_blank">LinkedIn: Harshad Jamdar</a><br>
+                    <p>📧 harshadj@gamil.com</p>
+                </div>
+            </div>
+
+            <!-- Developer 2 -->
+            <div class="developer-card">
+                <h3 style="color: var(--secondary-color);">Sumeet Bhosale</h3>
+                <div class="developer-info">
+                    <p>Member</p>
+                    <a href="https://github.com/SumeetBhosale17" target="_blank">GitHub: @sumeetbhosale</a><br>
+                    <a href="https://www.linkedin.com/in/sumeetbhosale17/" target="_blank">LinkedIn: Sumeet
+                        Bhosale</a><br>
+                    <p>📧 sumeet@gmail.com</p>
+                </div>
+            </div>
+
+            <!-- Developer 3 -->
+            <div class="developer-card">
+                <h3 style="color: var(--secondary-color);">Siddhant Kore</h3>
+                <div class="developer-info">
+                    <p>Member</p>
+                    <a href="https://github.com/siddhantkore" target="_blank">GitHub: @siddhantkore</a><br>
+                    <a href="https://linkedin.com/in/siddhantkore0bb/" target="_blank">LinkedIn: siddhant kore</a><br>
+                    <p>📧 siddhant@gamil.com</p>
+                </div>
+            </div>
+
+            <!-- Developer 4 -->
+            <div class="developer-card">
+                <h3 style="color: var(--secondary-color);">Abhishek Kadam</h3>
+                <div class="developer-info">
+                    <p>Member</p>
+                    <a href="https://github.com/" target="_blank">GitHub: @abhishek</a><br>
+                    <a href="https://linkedin.com/in/" target="_blank">LinkedIn: Abhishek Kadam</a><br>
+                    <p>📧 abhishek@gmail.com</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h3 style="color: var(--accent-color);">Our Mission</h3>
+            <p>This project was built as a demo to showcase how gesture recognition can be used to help bridge the
+                communication gap for the hearing-impaired..</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer style="background: var(--primary-color); color: white; padding: 2rem; text-align: center;">
+        <div
+            style="max-width: 1200px; margin: 0 auto; padding: 2rem; display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem;">
+            <div class="footer-section">
+                <h3 style="color: var(--secondary-color); margin-bottom: 1rem;">Quick Links</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 0.5rem;"><a href="index.html"
+                            style="color: white; text-decoration: none;">Home</a></li>
+                    <li style="margin-bottom: 0.5rem;"><a href="aboutus.html"
+                            style="color: white; text-decoration: none;">About Us</a></li>
+                    <li style="margin-bottom: 0.5rem;"><a href="#"
+                            style="color: white; text-decoration: none;">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3 style="color: var(--secondary-color); margin-bottom: 1rem;">Contact Us</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 0.5rem; color: white;">📧 support@signlang.com</li>
+                    <li style="margin-bottom: 0.5rem; color: white;">📞 +91 1234567890</li>
+                    <li style="margin-bottom: 0.5rem; color: white;">📍 Mumbai, India</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3 style="color: var(--secondary-color); margin-bottom: 1rem;">Follow Us</h3>
+                <div style="display: flex; gap: 1rem;">
+                    <a href="#" style="color: white; text-decoration: none;">📱 Twitter</a>
+                    <a href="#" style="color: white; text-decoration: none;">📱 LinkedIn</a>
+                    <a href="#" style="color: white; text-decoration: none;">📱 GitHub</a>
+                </div>
+            </div>
+        </div>
+        <div style="text-align: center; padding: 1rem; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 2rem;">
+            <p style="color: white;">© 2024 Sign Language Translator. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
