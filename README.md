@@ -50,3 +50,22 @@ This demo recognizes the following 4 gestures:
 
 ## 🙌 Credits
 This project was built as a demo to showcase how gesture recognition can be used to help bridge the communication gap for the hearing-impaired.
+
+## 👥 Contributors
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/SumeetBhosale17">
+        <img src="https://github.com/SumeetBhosale17.png" width="80px;" alt="Sumeet Bhosale"/><br />
+        <sub><b>Your Name</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/siddhantkore">
+        <img src="https://github.com/siddhantkore.png" width="80px;" alt="Siddhant Kore"/><br />
+        <sub><b>Teammate Name</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
