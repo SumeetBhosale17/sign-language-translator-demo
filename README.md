@@ -58,13 +58,13 @@ This project was built as a demo to showcase how gesture recognition can be used
     <td align="center">
       <a href="https://github.com/SumeetBhosale17">
         <img src="https://github.com/SumeetBhosale17.png" width="80px;" alt="Sumeet Bhosale"/><br />
-        <sub><b>Your Name</b></sub>
+        <sub><b>Sumeet Bhosale</b></sub>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/siddhantkore">
         <img src="https://github.com/siddhantkore.png" width="80px;" alt="Siddhant Kore"/><br />
-        <sub><b>Teammate Name</b></sub>
+        <sub><b>Siddhant Kore</b></sub>
       </a>
     </td>
   </tr>
